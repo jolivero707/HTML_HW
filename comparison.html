@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="visualizations/temp.html">Max Temperatures</a></li>
+                                    <li><a href="visualizations/humd.html">Humidity</a></li>
+                                    <li><a href="visualizations/cloud.html">Cloudiness</a></li>
+                                    <li><a href="visualizations/wind.html">Wind Speed</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="data.html">Data</a></li>
+
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+            <div class="col-lg-4">
+                <div class="col">
+                    <h3 style=>Comparison</h3>
+                    <hr>
+
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 20px;">
+                            <div class="col-6">
+                                <a href="temp.html">
+                                    <img class="panel display" src="assets/images/Fig1.png"
+                                        alt="Max Temp vs Lattitude Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="humd.html">
+                                    <img class="panel display" src="assets/images/Fig2.png"
+                                        alt="Humidity vs Lattitude Graph">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 20px;">
+                            <div class="col-6">
+                                <a href="cloud.html">
+                                    <img class="panel display" src="assets/images/Fig3.png"
+                                        alt="Cloudiness vs Lattitude Graph">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="wind.html">
+                                    <img class="panel display" src="assets/images/Fig4.png"
+                                        alt="Wind Speed vs Lattitude Graph">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
